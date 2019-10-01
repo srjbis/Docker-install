@@ -1,0 +1,3 @@
+This script is written for installing docker on rhel distribustion servers like centos7,6 etc..
+
+Kindly make sure that your user have all the permission to run yum and systemctl, otherwise it will get failed as most of user can't run the yum command
