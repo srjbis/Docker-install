@@ -1,5 +1,4 @@
-
-
+sudo -s <<EOF
 echo "############  REMOVING ALL THE DOCKER TOOLS ###################"
 yum remove docker \
                   docker-client \
@@ -36,3 +35,4 @@ systemctl start docker
 
 echo "############## RUNNING THE HELLO WORLD TO CHECK #####################"
 docker run hello-world
+EOF
